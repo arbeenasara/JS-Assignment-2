@@ -209,15 +209,267 @@ document.getElementById("que7").innerHTML = "<h3>Question # 7</h3> Write a progr
 // document.write("The weight of user is " + i + " kilograms");
 
 document.getElementById("que8").innerHTML = "<h3>Question # 8</h3> Write a program that stores a random secret number from 1 to 10 in a variable. Ask the user to input a number between 1 and 10. If the user input equals the secret number, congratulate the user.";
-var num = prompt("Enter any number from 1 to 10");
-var i = Math.floor();
+// var num = prompt("Enter any number from 1 to 10");
+// var i = Math.floor();
 
-if (i == num) {
-    alert("Congratulations!");
+// if (i == num) {
+//     alert("Congratulations!");
+// }
+// else {
+//     alert("Try again!");
+// }
+
+
+document.getElementById("ch3").innerHTML = "<h1>Chapter 31-34</h1>";
+document.getElementById("h1").innerHTML = "<h3>Question # 1</h3> Write a program that displays current date and time in your browser.";
+// var x = new Date()
+// document.write(x)
+
+document.getElementById("h2").innerHTML = "<h3>Question # 2</h3> Write a program that alerts the current month in words. For example December.";
+// var x = new Date();
+// var month = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// var currentMonth = x.getMonth();
+// document.write("Current Month: " + month[currentMonth]);
+
+document.getElementById("h3").innerHTML = "<h3>Question # 3</h3> Write a program that alerts the first 3 letters of the current day, for example if today is Sunday then alert will show Sun.";
+// var x = new Date();
+// var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// var today = x.getDay();
+// document.write("Today is " + days[today]);
+
+document.getElementById("h4").innerHTML = "<h3>Question # 4</h3> Write a program that displays a message “It’s Fun day” if its Saturday or Sunday today.";
+// var x = new Date();
+// var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+// var i = x.getDay();
+
+// if (days[i] == 'Sun' || days[i] == 'Sat') {
+//     document.write("It's Funday");
+// }
+
+// else {
+//     document.write("It's a weekday");
+// }
+
+document.getElementById("h5").innerHTML = "<h3>Question # 5</h3> Write a program that shows the message “First fifteen days of the month” if the date is less than 16th of the month else shows “Last days of the month”.";
+// var x = new Date();
+// var a = x.getDate();
+
+// if (x > 16) {
+//     document.write("First fifteen days of the month");
+// }
+// else {
+//     document.write("Last fifteen days of the month");
+// }
+
+document.getElementById("h6").innerHTML = "<h3>Question # 6</h3> Write a program that determines the minutes since midnight, Jan. 1, 1970 and assigns it to a variable that hasn't been declared beforehand. Use any variable you like to represent the Date object.";
+// var x = new Date();
+// var time = (x.getTime()) / (1000 * 60);
+// document.write("Current date: " + x + "<br>");
+// document.write("Elapsed Miliseconds since Jan 1 1970: " + x.getTime() + "<br>");
+// document.write("Elapsed Minutes since Jan 1 1970: " + time);
+
+document.getElementById("h7").innerHTML = "<h3>Question # 7</h3> Write a program that tests whether it's before noon and alert “Its AM” else “its PM”.";
+// var x = new Date();
+// var hours = x.getHours();
+// if (hours >= 0 && hours <= 12) {
+//     document.write("Its AM");
+// }
+// else {
+//     document.write("Its PM");
+// }
+
+document.getElementById("h8").innerHTML = "<h3>Question # 8</h3> Write a program that creates a Date object for the last day of the last month of 2020 and assigns it to variable named laterDate.";
+// var i = new Date("Dec 31, 2020");
+// document.write("Later Date: " + i);
+
+document.getElementById("h9").innerHTML = "<h3>Question # 9</h3> Create a date object of the starting date of this Ramadan and alert the number of days past since 1st Ramadan? Note: 1st Ramadan was on June 18, 2015";
+// var x = new Date();
+// var a = new Date("June 18, 2015 ");
+// var i = (x - a) / (1000 * 60 * 60 * 24);
+// document.write(Math.floor(i) + " days have passed since 1st Ramzan, 2015");
+
+document.getElementById("h10").innerHTML = "<h3>Question # 10</h3> Write a program that displays in your browser the seconds that elapsed between the reference date and the beginning of 2015.";
+// var x = new Date("Dec 5, 2015");
+// var date = new Date("Jan 1, 2015");
+// var sec = (x - date) / (1000);
+
+// document.write("On reference date " + x + ", " + Math.floor(sec) + " seconds has passed since beginning of 2015");
+
+document.getElementById("h11").innerHTML = "<h3>Question # 11</h3> Create a Date object for the current date and time. Extract the hours, reset the date object an hour ahead and finally display the date object in your browser.";
+// var x = new Date();
+// document.write("current date: " + x + "<br>");
+// x.setHours(x.getHours() - 1)
+// document.write("1 hour ago, it was " + x);
+
+document.getElementById("h12").innerHTML = "<h3>Question # 12</h3> Write a program that creates a date object and show the date in an alert box that is reset to 100 years back?";
+// var x = new Date();
+// document.write("current date: " + x + "<br>");
+// x.setFullYear(x.getFullYear() - 100)
+// document.write("100 years back, it was " + x);
+
+document.getElementById("h13").innerHTML = "<h3>Question # 13</h3> Write a program to ask the user about his age. Calculate and show his birth year in your browser.";
+// var age = prompt("Enter your age");
+// var x = new Date();
+// var year = x.getFullYear();
+// var birthYear = year - age;
+
+// document.write("Your age is: " + age + "<br>");
+// document.write("Your birth year is: " + birthYear);
+
+document.getElementById("h14").innerHTML = "<h3>Question # 14</h3> Write a program to generate your K-Electric bill in your browser. All the amounts should be rounded off to 2 decimal places.";
+// var i = "Arbeena";
+// var x = new Date();
+// var month = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// var currMonth = x.getMonth();
+
+// var units = 410;
+// var perUnit = 16;
+
+// var netAmount = units * perUnit;
+// var latePayment = 350;
+// var grossAmount = netAmount + latePayment;
+
+// document.write("<h1> K-Electric Bills </h1>");
+// document.write("Current Name: " + "<b>" + i + "</b>" + "<br>");
+// document.write("Current Month: " + "<b>" + month[currMonth] + "</b>" + "<br>");
+// document.write("Number of units: " + "<b>" + units + "</b>" + "<br>");
+// document.write("Charges per unit: " + "<b>" + perUnit + "</b>" + "<br>" + "<br>");
+
+// document.write("Net Amount Payable (within Due Date): " + "<b>" + netAmount + "</b>" + "<br>");
+// document.write("Late Payment Surcharge: " + "<b>" + latePayment + "</b>" + "<br>");
+// document.write("Gross Amount Payable (after Due Date): " + "<b>" + grossAmount + "</b>" + "<br>");
+
+
+document.getElementById("ch4").innerHTML = "<h1>Chapter 35-38</h1>";
+
+document.getElementById("qu1").innerHTML = "<h3>Question # 1</h3> Write a function that displays current date & time in your browser.";
+// function date() {
+//     var i = new Date();
+//     document.write();
+// }
+
+// date();
+
+document.getElementById("qu2").innerHTML = "<h3>Question # 2</h3> Write a function that takes first & last name and then it greets the user using his full name.";
+// function name(firstName, lastName) {
+//     var fullName = firstName + " " + lastName;
+//     return fullName;
+// }
+
+// var a = prompt("Enter your First Name");
+// var b = prompt("Enter your Last Name");
+
+// document.write("Hi! " + name(a, b) + " How are you?");
+
+document.getElementById("qu3").innerHTML = "<h3>Question # 3</h3> Write a function that adds two numbers (input by user) and returns the sum of two numbers.";
+// function add(num1, num2) {
+//     var sum = num1 + num2;
+//     return sum;
+// }
+
+// var num1 = prompt("Enter your First number");
+// var num2 = prompt("Enter your Second number");
+
+// document.write("Total: " + add(num1, num2));
+
+document.getElementById("qu4").innerHTML = "<h3>Question # 4</h3> Calculator: Write a function that takes three arguments num1, num2 & operator & compute the desired operation. Return and show the desired result in your browser.";
+// function cal(num1, sign, num2) {
+//     if (sign == "+") {
+//         var result = num1 + num2;
+//         return result;
+//     }
+//     if (sign == "-") {
+//         var result = num1 - num2;
+//         return result;
+//     }
+//     if (sign == "*") {
+//         var result = num1 * num2;
+//         return result;
+//     }
+//     if (sign == "/") {
+//         var result = num1 / num2;
+//         return result;
+//     }
+
+// }
+
+// var num1 = prompt("Enter First Number");
+// var sign = prompt("Enter operator", "+, -, *, /");
+// var num2 = prompt("Enter Second Number");
+
+// document.write("Result: " + num1 + " " + sign + " " + num2 + " is:  " + cal(num1, sign, num2));
+
+document.getElementById("qu5").innerHTML = "<h3>Question # 5</h3> Write a function that squares its argument.";
+// function square(num) {
+//     var square = num * num;
+//     return square;
+// }
+
+// var num = prompt("Enter any number");
+
+// document.write("Square of " + num + " is  " + square(num));
+
+document.getElementById("qu6").innerHTML = "<h3>Question # 6</h3> Write a function that computes factorial of a number.";
+// function factorial(num) {
+//     var a = 1;
+//     if (num === 0 || num === 1) {
+//         return a;
+//     }
+//     else {
+
+//         for (var i = num; i >= 1; i--) {
+
+//             a = a * i;
+
+//         }
+//         return a;
+//     }
+// }
+
+// var num = prompt("Enter any number");
+// document.write("Factorial of " + num + " is  " + factorial(num));
+
+document.getElementById("qu7").innerHTML = "<h3>Question # 7</h3> Write a function that take start and end number as inputs & display counting in your browser.";
+// function count(start, end) {
+//     for (var i = start; i <= end; i++) {
+//         document.write(i + "<br>");
+//     }
+// }
+
+// var start = prompt("Enter starting number");
+// var end = prompt("Enter ending number");
+
+// count(start, end);
+
+
+document.getElementById("qu8").innerHTML = "<h3>Question # 8</h3> Write a nested function that computes hypotenuse of a right angle triangle.";
+function calculateHypotenuse(base, perpendicular) {
+    function calculateSquare(a) {
+        a = a * a;
+        return a;
+    }
+    var hypotenuse = calculateSquare(base) + calculateSquare(perpendicular);
+    return Math.sqrt(hypotenuse);
 }
-else {
-    alert("Try again!");
-}
+
+var base = prompt("Enter base value");
+var perpendicular = prompt("Enter perpendicular value");
+
+document.write("Hypotenuse of a right angle triangle: " + calculateHypotenuse(base, perpendicular));
+
+document.getElementById("qu9").innerHTML = "<h3>Question # 9</h3> Write a function that calculates the area of a rectangle.";
+
+document.getElementById("qu10").innerHTML = "<h3>Question # 10</h3> Write a JavaScript function that checks whether a passed string is palindrome or not?";
+
+document.getElementById("qu11").innerHTML = "<h3>Question # 11</h3> Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.";
+
+document.getElementById("qu12").innerHTML = "<h3>Question # 12</h3> Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.";
+
+document.getElementById("qu13").innerHTML = "<h3>Question # 13</h3> Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.";
+
+
+
+
 
 
 
