@@ -443,29 +443,94 @@ document.getElementById("qu7").innerHTML = "<h3>Question # 7</h3> Write a functi
 
 
 document.getElementById("qu8").innerHTML = "<h3>Question # 8</h3> Write a nested function that computes hypotenuse of a right angle triangle.";
-function calculateHypotenuse(base, perpendicular) {
-    function calculateSquare(a) {
-        a = a * a;
-        return a;
-    }
-    var hypotenuse = calculateSquare(base) + calculateSquare(perpendicular);
-    return Math.sqrt(hypotenuse);
-}
+// function calculateHypotenuse(base, perpendicular) {
+//     function calculateSquare(a) {
+//         a = a * a;
+//         return a;
+//     }
+//     var hypotenuse = calculateSquare(base) + calculateSquare(perpendicular);
+//     return Math.sqrt(hypotenuse);
+// }
 
-var base = prompt("Enter base value");
-var perpendicular = prompt("Enter perpendicular value");
+// var base = prompt("Enter base value");
+// var perpendicular = prompt("Enter perpendicular value");
 
-document.write("Hypotenuse of a right angle triangle: " + calculateHypotenuse(base, perpendicular));
+// document.write("Hypotenuse of a right angle triangle: " + calculateHypotenuse(base, perpendicular));
 
 document.getElementById("qu9").innerHTML = "<h3>Question # 9</h3> Write a function that calculates the area of a rectangle.";
+// function a(width, height) {
+//     var a = width * height
+//     return a;
+// }
+// width = 10;
+// height = 6;
+
+// document.write("Arguments as value = " + a(4, 8) + "<br>");
+// document.write("Arguments as variables = " + a(width, height));
 
 document.getElementById("qu10").innerHTML = "<h3>Question # 10</h3> Write a JavaScript function that checks whether a passed string is palindrome or not?";
+// function palindrome(see) {
+//     var a = "";
+
+//     for (var i = see.length - 1; i >= 0; i--) {
+//         a += see[i];
+//     }
+//     if (see === a) {
+//         alert(see + " is palindrome");
+//     }
+//     else {
+//         alert(see + " is not palindrome");
+//     }
+// }
+// var i = prompt("Write a word to check it's palindrome or not..");
+// palindrome(i);
 
 document.getElementById("qu11").innerHTML = "<h3>Question # 11</h3> Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.";
+// function titleCase(change) {
+//     var arr = change.split(" ");
+//     var abc = [];
+//     var a;
+//     for (var i = 0; i < arr.length; i++) {
+//         var firstChar = arr[i].slice(0, 1);
+//         var addChar = arr[i].slice(1);
+//         var b = firstChar.toUpperCase() + addChar.toLowerCase();
+//         abc.push(b);
+//     }
+//     a = abc.join(" ");
+//     document.write("STRING: " + change + "<br>");
+//     document.write("OUTPUT: " + a);
+// }
+
+// var i = prompt("Write any text..");
+// titleCase(i);
 
 document.getElementById("qu12").innerHTML = "<h3>Question # 12</h3> Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.";
+// function longestString(change) {
+//     var a = change.split(" ");
+//     var b = a[0];
+//     for (i = 0; i < a.length; i++) {
+//         if (a[i].length > b.length) {
+//             b = a[i];
+//         }
+//     }
+//     document.write("STRING: " + change + "<br>")
+//     document.write("OUTPUT: " + b)
+// }
+// var p = prompt("Write soemthing in 3 to 4 words..");
+// longestString(p);
 
-document.getElementById("qu13").innerHTML = "<h3>Question # 13</h3> Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.";
+document.getElementById("qu14").innerHTML = "<h3>Question # 12</h3> Create 2 functions that calculate properties of a circle, using the definitions";
+// function calcCircumference(radius) {
+//     var a = 2 * 3.142 * radius;
+//     document.write("The circumference is: " + a + "<br>");
+// }
+// function calcArea(radius) {
+//     var b = 3.142 * radius * radius;
+//     document.write("The area is: " + b + "<br>");
+// }
+// var radius = prompt("Enter radius of a Circle");
+// calcCircumference(radius);
+// calcArea(radius);
 
 
 
